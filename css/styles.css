@@ -1,0 +1,67 @@
+.organic-vegetables {
+    background-color: #7A3145;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1em;
+    letter-spacing: -1.5%;
+    text-transform: uppercase;
+    color: #FBFBFB;
+    margin-right: 118px;
+    margin-bottom: 25px;
+}
+
+.highlight {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1em;
+    letter-spacing: -1.5%;
+    text-transform: uppercase;
+    display: block;
+    color: rgba(255, 236, 236, 0,9);
+}
+
+.section-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25em;
+    color: #FBFBFB;
+    margin-bottom: 50px;
+}
+
+.vegetables-ul {
+    list-style-type: none;
+}
+
+.vegetables-list {
+    width: 346px;
+    background-color: #FBFBFB;
+    border-radius: 40px;
+    padding: 32px;
+    gap: 10px;
+    margin-right: 21px;
+    margin-bottom: 28px;
+}
+
+.vegetables-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1em;
+    letter-spacing: -1.5%;
+    text-transform: lowercase;
+    color: #7A3145;
+    padding-top: 32px;
+    padding-left: 32px;
+    margin-bottom: 12px;
+}
+
+.vegetables-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -1.5%;
+    text-transform: uppercase;
+    color: #141414;
+}
