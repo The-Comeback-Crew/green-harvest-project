@@ -1,1 +1,17 @@
-@media screen and (min-width:320px) {}
+@media screen and (min-width:320px) and (max-width:767px){
+    .order {
+            display: block;
+            
+        }
+    .order-pic {
+        display: block;
+        height: auto;
+        width: min-content;
+        padding: 117px 123px 79px 100px;
+    }
+    .order-pic-alt{
+        display: flex;
+        align-items: center;
+    }
+
+}

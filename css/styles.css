@@ -6,21 +6,20 @@ body {
 ul {
   list-style-type: none;
 }
-.container {
-  width: max-content;
+
+.contain{
+    width:max-content
 }
 .order-pic {
-  background: #7a3145;
-  padding: 117px 100px 83px 100px;
+    background: #7A3145;
+    padding: 117px 100px 79px 100px;
+    width:min-content;
 }
-.order-pic-alt {
-  width: 430px;
-  height: 559px;
-  display: flex;
-  align-items: center;
-  border-radius: 30px 30px 30px 30px;
-  object-fit: cover;
-  object-position: 44%;
+.order-pic-alt{
+    border-radius: 30px 30px 30px 30px;
+    object-fit: cover;
+    object-position: 44%;
+
 }
 .order {
   display: flex;
@@ -42,25 +41,46 @@ ul {
   height: 96px;
   padding-bottom: 25px;
 }
+.order-items-text-alt-container{
+    width:auto
+}
 .highlight {
-  font-family: Inter Tight;
-  color: white;
-  font-weight: bold;
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 32px;
-  letter-spacing: -0.015em;
-  text-align: left;
+
+    font-family: 'Inter Tight';
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.015em;
+    text-align: left;
 }
 .subdued {
-  font-family: Inter Tight;
-  color: rgba(255, 255, 255, 0.5);
-  font-weight: bold;
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 32px;
-  letter-spacing: -0.015em;
-  text-align: left;
+    font-family: 'Inter Tight';
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+.order-items-text-alt-content{
+    width: 450px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px;
+    padding-bottom: 50px;
+}
+.order-items-text-alt-content-item{
+    font-family: 'Inter Tight';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #FBFBFB;
+
+ 
 }
 .order-items-text-alt-content {
   width: 450px;
@@ -113,16 +133,17 @@ ul {
   margin-right: 20px;
 }
 #number {
-  margin: 0;
-  font-family: Inter Tight;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 20px;
-  letter-spacing: -0.02em;
-  text-align: left;
-  color: #fbfbfb;
-  height: 20px;
-  position: absolute;
+
+    margin: 0;
+    font-family:'Inter Tight';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #FBFBFB;
+    height: 20px;
+    position: absolute;
 }
 .number-1 {
   bottom: 16px;
@@ -132,9 +153,10 @@ ul {
   bottom: 16.5px;
 }
 
-.order-items-steps-alt-list-item-text {
-  flex-grow: 1;
-  font-family: Inter Tight;
+
+.order-items-steps-alt-list-item-text{
+    flex-grow: 1;
+    font-family: 'Inter Tight'
 }
 
 .order-items-steps-alt-list-item-text {
