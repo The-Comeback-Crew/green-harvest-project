@@ -13,44 +13,45 @@
         width: 100%;
         height: auto;
     }
+
+        /* organic vegetables part tablet css */
     
-/* organic vegetables part tablet css */
-
-.organic-vegetables {
-    min-width: 768px;
-    max-width: 1279px;
-}
-
-.container-vegetables {
-    padding: 0;
-    margin: 0;
-}
-
-.vegetables-ul {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 32px;
-    padding-right: 32px;
-    gap: 28px;
-}
-
-.vegetables-list {
-    width: 342px;
-    height: 379px;
-}
-
-.organic-section-title {
-    padding-top: 100px;
-    padding-bottom: 50px;
-    padding-left: 32px;
-    padding-right: 228px;
-}
-
-.organic-section-text {
-    width: 626px;
-    gap: 50px;
-    padding-bottom: 50px;
-    padding-left: 32px;
-    padding-right: 110px;
-}
+        .organic-vegetables {
+            min-width: 768px;
+            max-width: 1279px;
+            width: 150%;
+        }
+    
+        .container-vegetables {
+            padding: 0;
+            margin: 0;
+        }
+    
+        .vegetables-ul {
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 32px;
+            padding-right: 32px;
+            gap: 28px;
+        }
+    
+        .vegetables-list {
+            width: 342px;
+            height: 379px;
+        }
+    
+        .organic-section-title {
+            padding-top: 100px;
+            padding-bottom: 50px;
+            padding-left: 32px;
+            padding-right: 228px;
+        }
+    
+        .organic-section-text {
+            width: 626px;
+            gap: 50px;
+            padding-bottom: 50px;
+            padding-left: 32px;
+            padding-right: 110px;
+        }
 }   
