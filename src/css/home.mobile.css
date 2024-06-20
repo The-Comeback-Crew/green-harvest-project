@@ -19,6 +19,10 @@
     }
 
         /* organic vegetables part mobile css */
+                .order-items-text-alt-container {
+                    padding-right: 100%;
+                    background-color: #576F35;
+                }
     
         .organic-vegetables {
             min-width: 320px;
