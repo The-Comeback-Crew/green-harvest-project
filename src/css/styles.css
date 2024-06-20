@@ -592,3 +592,43 @@ ul {
   color: rgba(20, 20, 20, 0.4);
   margin:0px;
 }
+
+#header-container {
+  display: flex;
+
+  width: 1280px;
+  height: 800px;
+}
+
+#header-left {
+
+  background-color: #576F35;
+  width: 640px;
+  height: 800px;
+  color: #FBFBFB;
+}
+
+
+#header-left-paragraf {
+  width: 502px;
+  height: 304px;
+  font-family: Inter Tight;
+  font-weight: 600;
+  font-size: 74px;
+  line-height: 76px;
+  letter-spacing: 1.5%;
+  margin-left: 80px;
+  padding-top: 100px;
+}
+
+#header-left-text {
+  width: 472px;
+  height: 80px;
+  font-family: Inter Tight;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: auto;
+  padding-top: 50px;
+
+}
