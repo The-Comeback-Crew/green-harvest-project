@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!--SRC-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/home.mobile.css" />
+    <link rel="stylesheet" href="./css/home.tablet.css" />
+    <link rel="stylesheet" href="./css/home.computer.css" />
+    <title>Green Harvest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="css/home.mobile.css">    
-    <link rel="stylesheet" href="css/home.tablet.css">    
-    <link rel="stylesheet" href="css/home.computer.css">    
-</head>
-<body>
-
+  <body>
     <header>
       <div id="header-container">
         <div id="header-left">
@@ -57,12 +59,13 @@
       <!--HERO-->
       <!--HOW IT WORKS-->
       <div class="container order">
+        <div class="order-title"><h1>HOW-IT-WORKS</h1></div>
         <div class="try">
           <!--PICTURE-->
           <div class="order-pic">
             <img
               class="order-pic-alt"
-              src="woman-cutting.jpg"
+              src="img/woman-cutting.jpg"
               alt="woman-cutting-fruits"
               width="430"
               height="559"
@@ -90,7 +93,7 @@
               </div>
               <!--STEPS-->
               <div class="order-items-steps">
-                <ul class="order-items-steps-alt">
+                <ol class="order-items-steps-alt">
                   <li class="order-items-steps-alt-list-item">
                     <div class="order-items-icon">
                       <span class="number-1" id="number">1</span>
@@ -128,7 +131,8 @@
                         <svg
                           width="50"
                           height="50"
-                          xmlns="http://www.w3.org/2000/svg">
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
                           <circle
                             cx="25"
                             cy="25"
@@ -178,7 +182,7 @@
                       </p>
                     </div>
                   </li>
-                </ul>
+                </ol>
               </div>
             </div>
           </div>
@@ -203,7 +207,7 @@
               <p class="vegetables-text">60 USD / KG</p>
               <div class="vegetables-section-img-container">
                 <img
-                  src="./images/eggplant.jpg"
+                  src="./img/eggplant.jpg"
                   alt="eggplant"
                   width="282"
                   height="243"
@@ -215,12 +219,7 @@
               <h3 class="vegetables-title">leek</h3>
               <p class="vegetables-text">50 USD / KG</p>
               <div class="vegetables-section-img-container">
-                <img
-                  src="./images/leek.jpg"
-                  alt="leek"
-                  width="282"
-                  height="243"
-                />
+                <img src="./img/leek.jpg" alt="leek" width="282" height="243" />
               </div>
             </li>
 
@@ -229,7 +228,7 @@
               <p class="vegetables-text">40 USD / KG</p>
               <div class="vegetables-section-img-container">
                 <img
-                  src="./images/mushrooms.jpg"
+                  src="./img/mushrooms.jpg"
                   alt="mushrooms"
                   width="282"
                   height="243"
@@ -241,12 +240,7 @@
               <h3 class="vegetables-title">corn</h3>
               <p class="vegetables-text">60 USD / KG</p>
               <div class="vegetables-section-img-container">
-                <img
-                  src="./images/corn.jpg"
-                  alt="corn"
-                  width="282"
-                  height="243"
-                />
+                <img src="./img/corn.jpg" alt="corn" width="282" height="243" />
               </div>
             </li>
 
@@ -255,7 +249,7 @@
               <p class="vegetables-text">50 USD / KG</p>
               <div class="vegetables-section-img-container">
                 <img
-                  src="./images/sweet-potatoes.jpg"
+                  src="./img/sweet-potatoes.jpg"
                   alt="sweet-potatoes"
                   width="282"
                   height="243"
@@ -268,7 +262,7 @@
               <p class="vegetables-text">40 USD / KG</p>
               <div class="vegetables-section-img-container">
                 <img
-                  src="./images/carrot.jpg"
+                  src="./img/carrot.jpg"
                   alt="carrot"
                   width="282"
                   height="243"
@@ -278,32 +272,63 @@
           </ul>
         </div>
       </section>
-
       <!--REVIEWS-->
-                  <p class="customer-text"> Words of our customers: impressions and opinions about the quality of our services and the freshness of our products.</p>
-            <ul class="customer-ul">
-                <li class="customer-list">
-                    <div class="customer-list-container">
-                        <img src="./images/johnWax.png" class="img-list" alt="">
-                        <h3 class="customer-list-title">John Wax</h3>
-                        <p class="customer-list-description">These vegetables are my secret to delicious and healthy meals. The quality is always at the highest level, the aroma and taste are enchanting. I advise every fan of real products!</p>
-                    </div>    
-                </li>
-    
-                <li class="customer-list">
-                    <div class="customer-list-container">
-                        <img src="./images/victoriaRomashenko.png" class="img-list" alt="">
-                        <h3 class="customer-list-title">Victoria Romashenko</h3>
-                        <p class="customer-list-description">I love how fast and fresh the vegetables are delivered. Salads always turn out so appetizing, and soups are real masterpieces. The quality is impeccable!</p>
-                    </div>   
-                </li>
-    
-                <li class="customer-list">
-                    <div class="customer-list-container">
-                        <img src="./images/IhorTrachuk.png" class="img-list" alt="">
-                        <h3 class="customer-list-title">Ihor Trachuk</h3>
-                        <p class="customer-list-description">Recently tried my fresh tomatoes and peppers - amazing! The authenticity of the taste, as if from the garden directly to my table. It is now my main vegetable supplier.</p>
-                    </div>  
+      <div class="review">
+        <section class="customer-container">
+          <p class="customer-title">
+            reviews from <br />
+            our
+            <span class="span-title">customers</span>
+          </p>
+
+          <p class="customer-text">
+            Words of our customers: impressions and opinions about the quality
+            of our services and the freshness of our products.
+          </p>
+
+          <ul class="customer-ul">
+            <li class="customer-list">
+              <div class="customer-list-container">
+                <img src="./img/johnWax.png" class="img-list" alt="" />
+                <h3 class="customer-list-title">John Wax</h3>
+                <p class="customer-list-description">
+                  These vegetables are my secret to delicious and healthy meals.
+                  The quality is always at the highest level, the aroma and
+                  taste are enchanting. I advise every fan of real products!
+                </p>
+              </div>
+            </li>
+
+            <li class="customer-list">
+              <div class="customer-list-container">
+                <img
+                  src="./img/victoriaRomashenko.png"
+                  class="img-list"
+                  alt=""
+                />
+                <h3 class="customer-list-title">Victoria Romashenko</h3>
+                <p class="customer-list-description">
+                  I love how fast and fresh the vegetables are delivered. Salads
+                  always turn out so appetizing, and soups are real
+                  masterpieces. The quality is impeccable!
+                </p>
+              </div>
+            </li>
+
+            <li class="customer-list">
+              <div class="customer-list-container">
+                <img src="./img/IhorTrachuk.png" class="img-list" alt="" />
+                <h3 class="customer-list-title">Ihor Trachuk</h3>
+                <p class="customer-list-description">
+                  Recently tried my fresh tomatoes and peppers - amazing! The
+                  authenticity of the taste, as if from the garden directly to
+                  my table. It is now my main vegetable supplier.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
       <!--YOUR ORDER-->
       <div class="your-order-container">
         <div id="layout-container">
@@ -352,12 +377,13 @@
                 <input type="button" value="SEND" class="button" />
               </div>
             </form>
+
             <div class="form-text-div">
               <div class="form-input-container"></div>
             </div>
           </section>
           <div class="link-box">
-            <img src="./images/Rectangle.jpg" alt="healthy-mix" class="image" />
+            <img src="./img/Rectangle.jpg" alt="healthy-mix" class="image" />
             <div class="social-links">
               <p class="follow-us">Follow us on our social networks:</p>
               <ul class="links-ul">
@@ -386,7 +412,6 @@
                     target="_blank"
                     >youtube</a
                   >
-
                 </li>
               </ul>
             </div>
