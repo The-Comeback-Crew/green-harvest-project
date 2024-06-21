@@ -66,15 +66,13 @@
 
         
           .customer-title{
-           
-            width: 35%;
+            width: 75%;
             
           }
 
           .customer-text{
             flex-wrap: wrap;
-            width: 35%;
-            
+            width: 70%;   
         }  
 
         .customer-ul{
