@@ -4,7 +4,9 @@
         justify-content: unset;
     }
     .order {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .order-pic {
         display: block;
@@ -13,7 +15,8 @@
         padding:117px 123px 79px 100px;
     }
     .order-items-text-alt-container{
-        display: block;
+        display: flex;
+        justify-content: center;
         width: 100%;
         height: auto;
     }

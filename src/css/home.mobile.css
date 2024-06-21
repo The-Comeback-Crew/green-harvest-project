@@ -1,11 +1,18 @@
-@media screen and (min-width:320px) and (max-width:767px){
+@media screen and (max-width:767px){
     .body{
         display: flex;
         justify-content: unset;
     }
     .order {
-            display: block;
+            display: flex;
+            flex-direction: column;
             
+            justify-content: center;
+        }
+        .try{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
     .order-pic {
         display: block;
@@ -19,10 +26,12 @@
     }
 
         /* organic vegetables part mobile css */
-                .order-items-text-alt-container {
-                    padding-right: 100%;
-                    background-color: #576F35;
-                }
+        .order-items-text-alt-container {
+            padding-right: 100%;
+            background-color: #576F35;
+            z-index: 2;
+            display: flex;
+        }
     
         .organic-vegetables {
             min-width: 320px;
