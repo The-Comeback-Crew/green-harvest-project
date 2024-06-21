@@ -1,113 +1,145 @@
-@media screen and (min-width:768px)  and (max-width:1279px) {
+@media screen and (min-width:768px) {
     .body {
         display: flex;
         justify-content: unset;
     }
-    .order {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+
+
+
+    /* organic vegetables part tablet css */
+
+    .organic-vegetables {
+        min-width: 768px;
+        max-width: 1279px;
+        width: 150%;
     }
-    .order-pic {
+
+    .container-vegetables {
+        padding: 0;
+        margin: 0;
+    }
+
+    .vegetables-ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 32px;
+        padding-right: 32px;
+        gap: 28px;
+    }
+
+    .vegetables-list {
+        width: 342px;
+        height: 379px;
+    }
+
+    .organic-section-title {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        padding-left: 32px;
+        padding-right: 228px;
+    }
+
+    .organic-section-text {
+        width: 626px;
+        gap: 50px;
+        padding-bottom: 50px;
+        padding-left: 32px;
+        padding-right: 110px;
+    }
+
+    .review-p-container {
+        width: 78.55%;
+    }
+
+    /* Review Customers*/
+
+
+    .customer-container {}
+
+
+    .customer-title {
         display: block;
-        height: auto;
-        width: min-content;
-        padding:117px 123px 79px 100px;
+
+        text-align: left;
+
+        /* margin:0px 0px 25px 0px; */
     }
-    .order-items-text-alt-container{
+
+    .customer-text {}
+
+    .customer-list {
+        padding-right: 17px;
+
+    }
+
+    .customer-ul {
         display: flex;
-        justify-content: center;
-        width: 100%;
-        height: auto;
+
+        flex-direction: row;
+
+        /* padding-left: 32px;   */
     }
 
-        /* organic vegetables part tablet css */
-    
-        .organic-vegetables {
-            min-width: 768px;
-            max-width: 1279px;
-            width: 150%;
-        }
-    
-        .container-vegetables {
-            padding: 0;
-            margin: 0;
-        }
-    
-        .vegetables-ul {
-            display: flex;
-            flex-wrap: wrap;
-            padding-left: 32px;
-            padding-right: 32px;
-            gap: 28px;
-        }
-    
-        .vegetables-list {
-            width: 342px;
-            height: 379px;
-        }
-    
-        .organic-section-title {
-            padding-top: 100px;
-            padding-bottom: 50px;
-            padding-left: 32px;
-            padding-right: 228px;
-        }
-    
-        .organic-section-text {
-            width: 626px;
-            gap: 50px;
-            padding-bottom: 50px;
-            padding-left: 32px;
-            padding-right: 110px;
-        }
+    .customer-list-container {
+        display: block;
+        justify-content: space-around;
+        flex-wrap: wrap;
 
 
-        /* Review Customers*/
+    }
 
-       
-        .customer-container{
-            min-width: 768px;
-            max-width:1279px ;
-            padding:0px 0px 0px 0px;
-        }
+    .order-pic {
+        padding: 100px 64px 100px 64px;
+    }
 
-          
-        .customer-title{
-            display: block; 
-            width:80%;
-            text-align: left;
-            padding-top: 100px;
-            padding-left: 32px;
-            /* margin:0px 0px 25px 0px; */
-        }   
-    
-        .customer-text{
-            width: 70%;
-            padding-left: 32px;
-            
-        } 
-        
-        .customer-list{
-            padding-right: 17px;
-            
-          }  
-        .customer-ul{
-            display: flex;
-          
-            flex-wrap: wrap;
-      
-            /* padding-left: 32px;   */
-          }
-         
-         .customer-list-container{
-            display: block;
-            justify-content:space-around;
-            flex-wrap: wrap;
-            
-            
-          }  
+    .order-items-text-alt-container {
 
-          
-        
-}   
+        padding: 100px 159px 100px 159px;
+
+
+    }
+
+    .order-items {
+        gap: 50px;
+    }
+
+    .order-items-text-alt {
+        gap: 25px;
+    }
+
+    .highlight {
+        font-size: 32px;
+        line-height: 32px;
+
+
+    }
+
+    .subdued {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .order-items-text-alt-content-item {
+
+        font-size: 16px;
+        line-height: 20px;
+
+
+    }
+
+    .order-items-steps-alt-list-item {
+        padding: 12px 25px 12px 24px;
+
+    }
+
+    .order-list-p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .order-list-p-span {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+}

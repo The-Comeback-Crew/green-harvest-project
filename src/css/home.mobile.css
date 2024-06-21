@@ -1,95 +1,226 @@
-@media screen and (max-width:767px){
-    .body{
+@media screen and (min-width:320px) {
+    .body {
         display: flex;
         justify-content: unset;
+        counter-reset: section;
     }
-    .order {
-            display: flex;
-            flex-direction: column;
-            
-            justify-content: center;
-        }
-        .try{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-    .order-pic {
+
+
+    .organic-vegetables {
+        min-width: 320px;
+        max-width: 767px;
+        width: 110%;
+    }
+
+    .container-vegetables {
+        padding: 0;
+        margin: 0;
+    }
+
+    .vegetables-ul {
+        justify-content: center;
+        margin-left: 20px;
+    }
+
+    .organic-section-title {
+        justify-content: center;
+        padding-top: 80px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .organic-section-text {
+        width: 335px;
+        justify-content: center;
+        gap: 20px;
+        padding-bottom: 50px;
+        padding-left: 32px;
+        padding-right: 110px;
+    }
+
+
+    /*Review Customers mobile  */
+    .review-p-container {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+
+
+
+
+    .customer-ul {
         display: block;
-        height: auto;
-        width: min-content;
-        padding: 117px 123px 79px 100px;
+        flex-direction: column;
+        /* margin-left: 0px;
+            padding-left: 0px;   */
     }
-    .order-pic-alt{
+
+    .order {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .order-pic {
+        background-color: rgba(122, 49, 69, 1);
+        padding: 40px 20px 40px 20px;
+        gap: 10px;
+
+
+
+    }
+
+    .order-pic-alt {
+        width: 100%;
+        border-radius: 30px;
+    }
+
+    .order-title {
+        display: none;
+    }
+
+    .order-items-text-alt-container {
+
+        padding: 80px 20px 80px 20px;
+        gap: 40px;
+        background: rgba(87, 111, 53, 1);
+
+
+    }
+
+    .order-items {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+
+    .order-items-text-alt {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+
+    .highlight {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(251, 251, 251, 1);
+
+
+
+    }
+
+    .subdued {
+        color: rgba(251, 251, 251, 0.3);
+
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.015em;
+        text-align: left;
+
+    }
+
+    .order-items-text-alt-content-item {
+        font-family: Inter Tight;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: rgba(251, 251, 251, 1);
+
+
+    }
+
+    .order-items-steps-alt {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .order-items-steps-alt-list-item {
+
+        padding: 12px 27px 12px 24px;
+        gap: 10px;
+        border-radius: 15px;
+        background: rgba(251, 251, 251, 1);
+        counter-increment: section;
+
+    }
+
+    .order-items-steps-alt-list-item-div {
         display: flex;
         align-items: center;
+
+        gap: 24px;
+
+
     }
 
-        /* organic vegetables part mobile css */
-        .order-items-text-alt-container {
-            padding-right: 100%;
-            background-color: #576F35;
-            z-index: 2;
-            display: flex;
-        }
-    
-        .organic-vegetables {
-            min-width: 320px;
-            max-width: 767px;
-            width: 110%;
-        }
-    
-        .container-vegetables {
-            padding: 0;
-            margin: 0;
-        }
-    
-        .vegetables-ul {
-            justify-content: center;
-            margin-left: 20px;
-        }
-    
-        .organic-section-title {
-            justify-content: center;
-            padding-top: 80px;
-            padding-bottom: 20px;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-    
-        .organic-section-text {
-            width: 335px;
-            justify-content: center;
-            gap: 20px;
-            padding-bottom: 50px;
-            padding-left: 32px;
-            padding-right: 110px;
-        }
+    .order-items-png {
+        width: 52px;
+        height: 52px;
+
+    }
+
+    .order-list-p {
+        color: rgba(20, 20, 20, 0.6);
+
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: -0.02em;
 
 
-        /*Review Customers mobile  */
+    }
 
-        .customer-container{
-            padding:80px 20px 80px 20px;
-          }
+    .order-list-p-span {
+        color: rgba(20, 20, 20, 1);
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: -0.02em;
 
-        
-          .customer-title{
-            width: 75%;
-            
-          }
 
-          .customer-text{
-            flex-wrap: wrap;
-            width: 70%;   
-        }  
+    }
 
-        .customer-ul{
-            display: block;
-            flex-direction: column;
-            /* margin-left: 0px;
-            padding-left: 0px;   */
-          }
+    .list-li-counter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 52px;
+        height: 52px;
+        border: 5px solid rgba(255, 255, 255, 0.8);
+        border-radius: 50%;
+        background-color: rgba(122, 49, 69, 1);
+        color: rgba(251, 251, 251, 1);
 
-        
+
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        text-align: left;
+
+
+
+
+    }
+
+    .list-li-counter::before {
+
+        content: counter(section) "";
+
+
+    }
+
+
 }
