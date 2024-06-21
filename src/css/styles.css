@@ -628,11 +628,21 @@ ul {
 }
 
 /*review*/
+.review{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  
+}
 
 .customer-container{
+  display: flex;
+  justify-content: center;
   width: 1280px;
-  padding: 100px;
   background-color: white; 
+  padding: 100px;
+  flex-direction: column;
 }
 
 .customer-title{
