@@ -66,4 +66,30 @@
             padding-right: 110px;
         }
 
+
+        /*Review Customers mobile  */
+
+        .customer-container{
+            padding:80px 20px 80px 20px;
+          }
+
+        
+          .customer-title{
+            width: 75%;
+            
+          }
+
+          .customer-text{
+            flex-wrap: wrap;
+            width: 70%;   
+        }  
+
+        .customer-ul{
+            display: block;
+            flex-direction: column;
+            /* margin-left: 0px;
+            padding-left: 0px;   */
+          }
+
+        
 }

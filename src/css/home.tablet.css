@@ -1,4 +1,4 @@
-@media screen and (min-width:768px) and (max-width:1279px){
+@media screen and (min-width:768px)  and (max-width:1279px) {
     .body {
         display: flex;
         justify-content: unset;
@@ -61,4 +61,53 @@
             padding-left: 32px;
             padding-right: 110px;
         }
+
+
+        /* Review Customers*/
+
+       
+        .customer-container{
+            min-width: 768px;
+            max-width:1279px ;
+            padding:0px 0px 0px 0px;
+        }
+
+          
+        .customer-title{
+            display: block; 
+            width:80%;
+            text-align: left;
+            padding-top: 100px;
+            padding-left: 32px;
+            /* margin:0px 0px 25px 0px; */
+        }   
+    
+        .customer-text{
+            width: 70%;
+            padding-left: 32px;
+            
+        } 
+        
+        .customer-list{
+            padding-right: 17px;
+            
+          }  
+        .customer-ul{
+            display: flex;
+          
+            flex-wrap: wrap;
+      
+            /* padding-left: 32px;   */
+          }
+         
+         .customer-list-container{
+            display: block;
+            justify-content:space-around;
+            flex-wrap: wrap;
+            
+            
+          }  
+
+          
+        
 }   
