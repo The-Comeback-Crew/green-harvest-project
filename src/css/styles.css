@@ -10,7 +10,6 @@ header{
 }
 main{
   background-color:#7A3145;
-
 }
 
 ul {
@@ -24,6 +23,9 @@ ul {
 .order-pic {
   background: #7a3145;
   padding: 117px 100px 83px 100px;
+}
+.order-title{
+  display: none;
 }
 
 .order-pic-alt {
@@ -98,8 +100,6 @@ ul {
   text-align: left;
   color: #fbfbfb;
 }
-
-
 
 .order-items-steps-alt-list-item-icon {
   display: flex;
@@ -194,7 +194,6 @@ ul {
 #layout-container {
   width: 1080px;
   gap: 25px;
-
   margin: 0 auto;
 }
 
@@ -246,7 +245,6 @@ ul {
   width: 1080px;
   height: 534px;
   gap: 24px;
-
   margin: 0 auto;
 }
 
@@ -255,7 +253,6 @@ ul {
   padding: 50px;
   gap: 10px;
   border-radius: 30px;
-
   background: #fbfbfb;
 }
 
@@ -269,7 +266,6 @@ ul {
   width: 428px;
   height: 78px;
   gap: 0px;
-
   font-family: Inter Tight;
   font-size: 24px;
   font-weight: 600;
@@ -308,14 +304,11 @@ ul {
 .form-input {
   margin-bottom: 15px;
   width: 429px;
-
   padding: 16px;
   gap: 10px;
   border-radius: 30px;
   border: 1px;
-
   border: 1px solid #14141433;
-
   margin: 0 auto 15px;
   width: 94%;
 }
@@ -328,7 +321,6 @@ ul {
   border-radius: 15px;
   border: 1px;
   border: 1px solid #14141433;
-
   margin: 0 auto 15px;
   width: 94%;
 }
@@ -367,7 +359,6 @@ ul {
   padding: 50px;
   gap: 50px;
   border-radius: 30px;
-
   background: #576f35;
 }
 
@@ -428,7 +419,6 @@ ul {
   max-width: 1280px;
   justify-content: center;
   margin: 0 auto;
-
 }
 
 .organic-vegetables {
@@ -525,13 +515,11 @@ ul {
 
 #header-container {
   display: flex;
-
   width: 1280px;
   height: 800px;
 }
 
 #header-left {
-
   background-color: #576F35;
   width: 640px;
   height: 800px;
@@ -577,16 +565,10 @@ ul {
   background-image: url(../img/1509d0c1b3d37f72969278e24c8386c5.png);
   background-size: cover;
   width: 640px;
-
-
 }
 
-
-
 .navbar-paragraf {
-
   border: 0.1px solid #FBFBFB;
-
   border-radius: 15px;
   width: 114px;
   height: 44px;
@@ -600,9 +582,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-
-
-
 }
 
 #button-text {
@@ -611,7 +590,6 @@ ul {
   background-color: #7A3145;
   border: none;
   border-radius: 30px;
-
   font-family: Inter Tight;
   font-weight: 600;
   font-size: 18px;
@@ -629,7 +607,6 @@ ul {
 
 /*review*/
 .customer-container{
-  width: 1280px;
   padding: 100px;
   background-color: white; 
 }
@@ -673,7 +650,6 @@ ul {
   padding-left: 0px;  
 }
 
-
 .customer-list{
   padding-right: 17px;
 }  
@@ -703,10 +679,6 @@ ul {
   margin-top: 20px;
   padding-left: 123.5px;
   margin: 20px;
-}
-
-.customer-ul>.customer-list{
-  width:calc((100% - 72px) / 3);  
 }
 
 .customer-list-title{
