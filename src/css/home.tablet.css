@@ -88,6 +88,11 @@
 
     }
 
+    .order-pic-alt {
+        object-fit: cover;
+        height: 640px;
+    }
+
     .order-pic {
         padding: 100px 64px 100px 64px;
     }
