@@ -1,4 +1,4 @@
-@media screen and (min-width:768px) and (max-width:1279px){
+@media screen and (min-width:768px)  and (max-width:1279px) {
     .body {
         display: flex;
         justify-content: unset;
@@ -58,4 +58,37 @@
             padding-left: 32px;
             padding-right: 110px;
         }
+
+
+        /* Review Customers*/
+
+
+      
+
+       
+        .customer-container{
+           /* width: 704px;
+           height: 501px; */
+            padding:100px 32px 100px 32px;
+           
+        }
+
+          
+        .customer-title{
+            display: block; 
+            width: 50%;
+            text-align: left;
+            margin:0px 0px 25px 0px;
+        }   
+        
+          
+          
+        .customer-text{
+            flex-wrap: wrap;
+            width: 45%;
+            
+        }           
+         
+
+        
 }   
