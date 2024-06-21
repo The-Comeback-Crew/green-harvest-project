@@ -25,13 +25,15 @@
         align-items: center;
     }
 
-        /* organic vegetables part mobile css */
+    
         .order-items-text-alt-container {
             padding-right: 100%;
             background-color: #576F35;
             z-index: 2;
             display: flex;
         }
+        
+        /* organic vegetables part mobile css */
     
         .organic-vegetables {
             min-width: 320px;
@@ -45,6 +47,8 @@
         }
     
         .vegetables-ul {
+            display: block;
+            flex-wrap: wrap;
             justify-content: center;
             margin-left: 20px;
         }
