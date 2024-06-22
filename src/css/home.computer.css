@@ -37,14 +37,12 @@
 
     .review-p-container {
         display: flex;
-        flex-direction: column;
         gap: 25px;
     }
 
     .customer-title {
         font-size: 64px;
         line-height: 64px;
-        width: 43%; 
     }
 
     .span-title {
@@ -88,7 +86,7 @@
       .customer-list-container .img-list {  
         display: flex;
         align-items: center;
-        padding: 12px 0px 0px 0px;
+
         gap: 8px;    
     }
 
@@ -123,35 +121,36 @@
 
     .discount-up-to{  
         padding: 100px;
-        background-color:rgba(251, 251, 251, 1); 
+        gap: 10px;
+        display: flex;
     }
-
-    .discount-text-div{
-       
-        padding: 100px;
-        width: 84%;
-      
+    .discount-p{  
+        font-size: 76px;
+        font-weight: 600;
+        line-height: 80px;
+        letter-spacing: -0.015em;
     }
 
     .discount-span{
-        font-size: 76px;
-        line-height: 80px;
-        width: 736px;
-        border-radius: 12px;
-        opacity: 0px;
-        background-color: rgba(87, 111, 53, 1);
-        color: white;
+    font-size: 76px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: -0.015em;
+    width: auto;
+    padding-left: 12px;
     }
+    .footer-contact{
 
-
-    .discount-p{  
-        font-size: 76px;
-        line-height: 80px;
-        text-align: left;
-        text-transform: uppercase;
-        color: rgba(20, 20, 20, 1);
-
+        padding-top:32px;
     }
-
+    .footer-menu{
+                flex-direction: row;
+    }
+    .footer-container-logo{
+        width:22%;
+    }
+    .footer{
+        max-width:1280px;
+    }
 
 }

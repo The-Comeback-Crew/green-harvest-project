@@ -34,17 +34,17 @@
 
     .organic-section-title {
         padding-top: 100px;
-        padding-bottom: 50px;
-        padding-left: 32px;
-        padding-right: 228px;
+        padding-bottom: 25px;
+        padding-left: 100px;
+
     }
 
     .organic-section-text {
         width: 626px;
         gap: 50px;
         padding-bottom: 50px;
-        padding-left: 32px;
-        padding-right: 110px;
+        padding-left: 100px;
+
         display: flex;
         flex-direction: column;
     }
@@ -56,7 +56,7 @@
     /* Review Customers*/
 
 
-    .customer-container {}
+
 
 
     .customer-title {
@@ -67,7 +67,7 @@
         /* margin:0px 0px 25px 0px; */
     }
 
-    .customer-text {}
+
 
     .customer-list {
         padding-right: 17px;
@@ -259,33 +259,27 @@
     /* Discount up to */
 
     .discount-up-to{  
-        padding: 100px 16px 100px 16px;
+       padding: 100px 16px 100px 16px;
+        gap: 10px;
+        display: flex;
         background-color:rgba(251, 251, 251, 1); 
     }
-
-    .discount-text-div{
-        /* padding: 100px 16px 100px 16px; */
-        width: 95%;
+    .discount-p{  
+        font-size: 64px;
+        line-height: 70px;
     }
 
     .discount-span{
         font-size: 64px;
+        font-weight: 600;
         line-height: 70px;
+        letter-spacing: -0.015em;
         width: 736px;
-        border-radius: 12px;
-        opacity: 0px;
-        background-color: rgba(87, 111, 53, 1);
-        color: white;
+        padding-left: 12px;
     }
 
 
-    .discount-p{  
-      font-size: 64px;
-        line-height: 70px;
-        text-transform: uppercase;
-        line-height: 50px;
-        color: rgba(20, 20, 20, 1);
-    }
+    
   
 
 
@@ -299,7 +293,7 @@
     .footer-container{
         display: flex;
         flex-direction: row;
-        gap: 224px;
+        justify-content: space-between;
         /* width: 91%; */
         /* padding: 32px 32px 100px 32px; */
 
@@ -308,7 +302,9 @@
 
     .footer-container-logo{
         gap: 25px;
-        width: 37%;
+        padding-top:32px;
+        padding-left:32px;
+        width:50%;
     }
 
     .icon-footer{
@@ -332,12 +328,15 @@
 
     .footer-menu{
         gap: 64px;
-        width: 30%;
+        display: flex;
+        flex-direction: column;
     }
 
     .footer-menu-li{ 
         gap: 25px;
-        width: 82%;
+        display:flex;
+        padding-top:32px;
+        padding-right:32px;
     }
 
    .footer-menu-li-p{
@@ -374,17 +373,13 @@
 
     .footer-privacy{  
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
-        gap: 49px;
-        width: 89%;
+        padding: 0 32px 32px 32px;
     }
 
     .footer-privacy-left{ 
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
-        gap: 8px;
     }
 
     .footer-privacy-right{
