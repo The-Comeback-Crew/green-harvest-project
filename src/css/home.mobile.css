@@ -85,22 +85,129 @@
 
 
     /*Review Customers mobile  */
+
+    .customer-container {
+        background-color: white;
+        padding: 80px 20px 80px 20px;
+    }
+
+    .review {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+        
+
     .review-p-container {
         display: flex;
         flex-direction: column;
-        gap: 25px;
+        gap: 20px;
     }
 
+    .customer-title {
+        text-transform: uppercase;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        width: 89%; 
+    }
 
-
+    .span-title {
+        font-size: 48px;
+        color: rgba(87, 111, 53, 1);
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: -0.015em;
+        text-align: left; 
+        width: 89%; 
+    }
+      
+    .customer-text { 
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color:rgba(20, 20, 20, 1);
+        width: 89%; 
+    }
 
 
     .customer-ul {
         display: block;
-        flex-direction: column;
+        flex-direction: column ;
         /* margin-left: 0px;
             padding-left: 0px;   */
     }
+
+    .customer-ul>.customer-list{
+        width:calc((100% - 72px) / 1);  
+    }
+
+    .customer-list{
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+       
+    }
+       
+    .customer-list-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 16px 20px 16px;
+        border-radius: 24px;
+        border: 1px solid #7A31454D;
+        color: rgba(251, 251, 251, 1);
+        gap: 18px;
+    }
+      
+      .customer-list-container .img-list {   
+        display: flex;
+        align-items: center;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        gap: 8px;
+        margin-bottom: 16px;
+        
+      }
+
+    .customer-list-container-p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+      
+    .customer-list-title {
+        
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: rgba(4, 3, 6, 1);
+        display: flex; 
+    }
+      
+      .customer-list-description {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: center;
+        color: rgba(20, 20, 20, 0.4);
+      }
+
+    .customer-ul li:nth-child(2), 
+    .customer-ul li:nth-child(3){
+        display: none;
+    }
+
+
+    /* */
 
     .order {
         display: flex;
@@ -270,4 +377,173 @@
     }
 
 
+    /* Discount up to */
+
+    .discount-up-to{ 
+        padding: 80px 10px 80px 10px;
+        background-color:rgba(251, 251, 251, 1);   
+    }
+
+    .discount-text-div{
+        /* padding: 80px 10px 80px 10px; */
+        width: 94%;
+       
+    }
+
+    .discount-span{    
+        font-size: 48px;
+        text-transform: uppercase;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: -0.015em;
+        text-align: left;
+
+        width: 355px;
+        height: 102px;
+        gap: 0px;
+        border-radius: 12px;
+        background-color: rgba(87, 111, 53, 1);
+        color: white;
+    }
+
+
+    .discount-p{     
+        font-size: 48px;
+        text-transform: uppercase;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(20, 20, 20, 1);
+    }
+
+
+    /* Footer Mobile */
+
+    .footer{
+        padding: 40px 20px 40px 20px;
+       
+    }
+
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding-bottom: 80px;
+    }
+
+    .footer-container-logo{
+        gap: 4px;
+        width: 78%;
+
+    }
+
+    .icon-footer{
+        display: flex;
+        color: rgba(251, 251, 251, 1);    
+    }
+
+    .footer-logo{ 
+        gap: 4px;
+        color: white;
+    }
+
+    .footer-text{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: rgba(251, 251, 251, 1);
+        width: 78%;
+    }
+
+    .footer-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 72%;
+    }
+
+    .footer-menu-li{ 
+        gap: 14px;
+        width: 72%;
+    }
+
+   .footer-menu-li-p{
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(251, 251, 251, 1);  
+   }
+
+    .footer-contact{
+        gap: 14px;
+        width: 57%;
+        text-decoration: none;
+    }
+
+    .footer-contact a{
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(251, 251, 251, 1);
+        text-decoration: none;
+    }
+
+    .contact-p{         
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(251, 251, 251, 1);
+    }
+
+
+    .footer-privacy{  
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 49px;
+        width: 89%;
+    }
+
+    .footer-privacy-left{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    .footer-privacy-right{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+    }
+
+    .privacy-left-p{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(251, 251, 251, 0.5);
+    }
+
+    .privacy-right-p{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(251, 251, 251, 0.5);
+    }
 }
