@@ -27,4 +27,131 @@
 
     }
 
+
+    /*Review Customers mobile  */
+
+    .customer-container {
+        padding: 100px;
+    }
+   
+
+    .review-p-container {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .customer-title {
+        font-size: 64px;
+        line-height: 64px;
+        width: 43%; 
+    }
+
+    .span-title {
+        font-size: 64px;
+        line-height: 64px;
+        width: 43%;
+    }
+      
+    .customer-text { 
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        color:rgba(20, 20, 20, 1);
+        width: 43%;    
+    }
+
+
+    .customer-ul {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;    
+    }
+
+    .customer-ul>.customer-list{
+        width:calc((100% - 72px) / 3);  
+    }
+
+    .customer-list{
+        display: flex;
+        justify-content: column;
+        padding: 20px 0px 0px 0px;
+        gap: 8px;
+       
+    }
+       
+    .customer-list-container {
+       gap: 24px;
+       
+    }
+      
+      .customer-list-container .img-list {  
+        display: flex;
+        align-items: center;
+        padding: 12px 0px 0px 0px;
+        gap: 8px;    
+    }
+
+    .customer-list-container-p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+      
+    .customer-list-title {
+        font-size: 18px;
+        line-height: 19.8px;
+        color: rgba(4, 3, 6, 1);
+        display: flex; 
+    }
+      
+      .customer-list-description {
+        font-size: 16px;
+        line-height: 22.4px;
+        text-align: center; 
+      }
+
+
+      .customer-ul li:nth-child(2), 
+    .customer-ul li:nth-child(3){
+        display: flex;
+    }
+
+
+    /* Discount up to */
+
+    .discount-up-to{  
+        padding: 100px;
+        background-color:rgba(251, 251, 251, 1); 
+    }
+
+    .discount-text-div{
+       
+        padding: 100px;
+        width: 84%;
+      
+    }
+
+    .discount-span{
+        font-size: 76px;
+        line-height: 80px;
+        width: 736px;
+        border-radius: 12px;
+        opacity: 0px;
+        background-color: rgba(87, 111, 53, 1);
+        color: white;
+    }
+
+
+    .discount-p{  
+        font-size: 76px;
+        line-height: 80px;
+        text-align: left;
+        text-transform: uppercase;
+        color: rgba(20, 20, 20, 1);
+
+    }
+
+
 }
