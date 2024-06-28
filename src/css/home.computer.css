@@ -107,32 +107,25 @@
     }
 /* HERO-HEADER-END */
 
-/* DISCOUNT-START */
-    .discount{
-            padding: 100px;
-            gap: 10px;
-            display: flex;
-    }
-    .discount-alt{
-        font-size: 76px;
-        font-weight: 600;
-        line-height: 80px;
-        letter-spacing: -0.015em;
-    }
-    .discount-alt-span{
-            font-size: 76px;
-            font-weight: 600;
-            line-height: 80px;
-            letter-spacing: -0.015em;
-    }
-/* DISCOUNT-END */
-
+/* ORGANIC-VEG-START */
+.container-vegetables{
+    padding: 100px;
+}
+.organic-section-title{
+    max-width:  40%;
+    
+}
+.organic-section-text {
+    max-width: 56%;
+}
+/* ORGANIC-VEG-END */
 
     /*Review Customers mobile  */
 
     .customer-container {
         padding: 100px;
     }
+    
    
 
     .review-p-container {
@@ -246,11 +239,25 @@
     .footer-menu{
                 flex-direction: row;
     }
-    .footer-container-logo{
-        width:22%;
-    }
+
     .footer{
-        max-width:1280px;
+                margin-top: -1px;
+    }
+    .footer-menu{
+        gap: 121px;
+        width: 50%;
+    }
+    .footer-text{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        max-width: 265px;
+    }
+    .footer-container-logo{
+        padding-left:100px;
+    }
+    .footer-privacy{
+        padding:0 100px 50px 100px;
     }
   /* FRESH-HARVEST-RESPONSIVE-START */
     .your-order-container{
