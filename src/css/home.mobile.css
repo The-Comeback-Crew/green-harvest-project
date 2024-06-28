@@ -1,9 +1,104 @@
-@media screen and (min-width:320px) {
+@media screen and (min-width:375px) {
     .body {
         display: flex;
         justify-content: unset;
         counter-reset: section;
     }
+
+    /* HERO-HEADER-START */
+    .nav-bar-menu {
+        display: none;
+    }
+
+    .nav-bar {
+        padding: 20px 20px 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .nav-bar-logo-square {
+        display: flex;
+        gap: 4px;
+
+    }
+
+    .hero {
+        padding-top: 48px;
+        margin-top: -2px;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-alt-text {
+        padding: 0 20px 40px 20px;
+    }
+
+    .hero-alt-text-title {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: -0.015em;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+        color: rgba(251, 251, 251, 1);
+    }
+
+    .hero-alt-text-instruction {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        color: rgba(251, 251, 251, 1);
+    }
+
+    .hero-alt-img {
+        background-image: url(/green-harvest-hero-image.jpg);
+        min-height: 370px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    /* HERO-HEADER-END */
+
+    /* DISCOUNT-START */
+    .discount{
+        display: flex;
+        padding:80px 10px 80px 10px;
+        gap: 10px;
+        text-transform:uppercase;
+    } 
+    .discount-alt{
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 50px;
+            letter-spacing: -0.015em;
+            text-align: left;
+    } 
+    .discount-alt-span{
+            background-color: rgba(87, 111, 53, 1);
+            color: rgba(251, 251, 251, 1);
+            border-radius: 12px;
+            display: inline-block;
+            text-align: left;
+    }
+
+    .header-svg{
+        display: flex;
+        top: 20px;
+        left: 20px;
+        gap: 135px;
+    }
+    .svg-logo{
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+    }
+
+    /* DISCOUNT-END */
 
     /* organic vegetables part mobile css */
 
@@ -368,6 +463,208 @@
     }
 
 
+    /* FRESH-HARVESTT-BOX-FORM-START*/
+        .your-order-container {
+            padding: 80px 20px 80px 20px;
+            gap: 40px;
+            background-color: #7a3145;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .layout-container {
+            display: flex;
+            flex-direction: column;
+            gap: 29px;  
+        }
+    
+        .layout-one {
+            width: 751px;
+            height: 128px;
+        }
+    
+        .fresh-harvest {
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 50px;
+            letter-spacing: -0.015em;
+            color: #fbfbfb;
+        }
+    
+        .fresh-harvest-span {
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 50px;
+            letter-spacing: -0.015em;
+            color: #fbfbfb4d;
+        }
+    
+        .fresh-harvest-text {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 18px;
+            color: #fbfbfb;
+        }
+    
+        .form-div-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .form-box {
+            display: flex;
+            flex-direction: column;
+            padding: 40px 20px 40px 20px;
+            border-radius: 30px;
+            background: rgba(251, 251, 251, 1);
+        }
+        .from-us {
+            color: #7a3145;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 26px;
+            letter-spacing: -0.015em;
+        }
+        .order-text{
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 26px;
+            letter-spacing: -0.015em;
+            padding: 40px 20px 40px 20px;
+        }
+        .form{
+            display: flex;
+                gap: 20px;
+        }
+        .form-text-div {
+            width: 429px;
+            height: 434px;
+            gap: 50px;
+        }
+        .the-form {
+            color: #576f35;
+        }
+        .form-input-container {
+            width: 429px;
+            height: 434px;
+            gap: 50px;
+        }
+    
+        .form-class {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 100%;
+        }
+    
+        .form-input {
+            display: flex;
+            padding: 14px 0 14px 16px;
+            gap: 10px;
+            border-radius: 30px;
+            border: 1px solid rgba(20, 20, 20, 0.2);
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 18px;
+            letter-spacing: -0.02em;
+        }
+        .form-input:hover,
+        .form-input:focus{
+            border: 1px solid rgba(122, 49, 69, 1)
+        }
+        .text-area {
+            display: flex;
+            padding: 14px 20px 59px 16px;
+            gap: 10px;
+            border-radius: 15px;
+            border: 1px;
+            border: 1px solid rgba(20, 20, 20, 0.2);
+            font-family: Inter Tight;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 18px;
+            letter-spacing: -0.02em;
+        }
+    
+        .button {
+            padding: 16px 129px 16px 129px;
+            border-radius: 30px;
+            background: #576f35;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 18px;
+            letter-spacing: -0.015em;
+            color: rgba(251, 251, 251, 1);
+            border: none;
+        }
+    
+        ::placeholder {
+            color: #141414;
+            font-family: Inter Tight;
+            font-size: 16px;
+            font-weight: 500px;
+            line-height: 20px;
+            letter-spacing: -0.02em;
+        }
+    
+        .link-box {
+            display: flex;
+            flex-direction: column;
+            padding: 40px 20px 40px 20px;
+            gap: 20px;
+            border-radius: 30px;
+            background: rgba(87, 111, 53, 1);
+            color: rgba(20, 20, 20, 0.3);
+        }
+    
+        .image {
+            border-radius: 15px;
+        }
+    
+        .social-links {
+            display: flex;
+            flex-direction:column;
+            gap: 14px;
+        }
+    
+        .follow-us {
+            font-family: Inter Tight;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 18px;
+            letter-spacing: -0.015em;
+            text-align: left;
+            color: rgba(251, 251, 251, 0.5);
+        }
+    
+        .links-ul {
+            list-style-type: none;
+            
+            flex: auto;
+            
+        }
+    
+        .links-list {
+            
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 26px;
+            letter-spacing: -0.015em;
+        }
+    
+        .links-list a {
+            color: #fbfbfb;
+            text-decoration: none;
+            padding-right: 8px;
+        }
+    
+        .links-list span {
+            color: #fbfbfb;
+            width: 9px;
+            height: 26px;
+                
+        }
+    /* FRESH-HARVESTT-BOX-FORM-END*/
 
 
 
