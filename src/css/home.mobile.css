@@ -7,16 +7,47 @@
 
     /* organic vegetables part mobile css */
 
-    .organic-vegetables {
-        min-width: 320px;
-        max-width: 767px;
+    /* .organic-vegetables {
+        padding: 80px 20px 80px 20px;
+        gap: 40px;
         width: 100%;
     }
 
     .container-vegetables {
-        padding: 0;
-        margin: 0;
+        gap: 20px;
+        width: 89%;
     }
+
+    .container-vegetables-title{
+       
+    }
+
+    .organic-section-title {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(251, 251, 251, 1);  
+    }
+
+    .organic-highlight{
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(251, 251, 251, 0.3);
+    }
+
+    .organic-section-text {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: rgba(251, 251, 251, 1);
+    }
+
 
     .vegetables-ul {
         display: block;
@@ -24,168 +55,21 @@
         justify-content: center;
         padding-left: 20px;
         width: 100%;
-    }
+    } */
 
-    .organic-section-title {
-        justify-content: center;
-        padding-top: 80px;
-        padding-bottom: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+   
 
-    .organic-section-text {
-        width: 335px;
-        justify-content: center;
-        gap: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-        display: flex;
-        flex-direction: column;
-    }
-
-
-    /*Review Customers mobile  */
-
-    .customer-container {
-        background-color: white;
-        padding: 80px 20px 80px 20px;
-    }
-
-    .review {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        gap: 40px;
-    }
-        
-
-    .review-p-container {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-
-    .customer-title {
-        text-transform: uppercase;
-        font-size: 48px;
-        font-weight: 600;
-        line-height: 50px;
-        letter-spacing: -0.015em;
-        text-align: left;
-        width: 89%; 
-    }
-
-    .span-title {
-        font-size: 48px;
-        color: rgba(87, 111, 53, 1);
-        font-weight: 600;
-        line-height: 50px;
-        letter-spacing: -0.015em;
-        text-align: left; 
-        width: 89%; 
-    }
-      
-    .customer-text { 
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 18px;
-        text-align: left;
-        color:rgba(20, 20, 20, 1);
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-
-    .customer-ul {
-        display: flex;
-        flex-direction: column ;
-        align-items: center;
-
-    }
-
-    .customer-ul>.customer-list{
-        width:calc((100% - 72px) / 1);  
-    }
-
-    .customer-list{
-        display: flex;
-        justify-content: center;
-        gap: 18px;
-       
-    }
-       
-    .customer-list-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px 16px 20px 16px;
-        border-radius: 24px;
-        border: 1px solid #7A31454D;
-        color: rgba(251, 251, 251, 1);
-        gap: 18px;
-    }
-      
-      .customer-list-container .img-list {   
-        display: flex;
-        align-items: center;
-        width: 56px;
-        height: 56px;
-        border-radius: 50%;
-        gap: 8px;
-        margin-bottom: 16px;
-        
-      }
-
-    .customer-list-container-p{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-    }
-      
-    .customer-list-title {
-        
-        font-size: 16px;
-        font-weight: 600;
-        line-height: 20px;
-        letter-spacing: -0.02em;
-        text-align: center;
-        color: rgba(4, 3, 6, 1);
-        display: flex; 
-    }
-      
-      .customer-list-description {
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 18px;
-        text-align: center;
-        color: rgba(20, 20, 20, 0.4);
-      }
-
-    .customer-ul li:nth-child(2), 
-    .customer-ul li:nth-child(3){
-        display: none;
-    }
-
-
-    /* */
+    /*Order your - easy steps */
 
     .order {
         display: flex;
         flex-direction: column;
-
     }
 
     .order-pic {
         background-color: rgba(122, 49, 69, 1);
         padding: 40px 20px 40px 20px;
         gap: 10px;
-
-
-
     }
 
     .order-pic-alt {
@@ -193,7 +77,6 @@
         border-radius: 30px;
         height: 450px;
         object-fit: cover;
-
     }
 
     .order-title {
@@ -201,12 +84,9 @@
     }
 
     .order-items-text-alt-container {
-
         padding: 80px 20px 80px 20px;
         gap: 40px;
         background: rgba(87, 111, 53, 1);
-
-
     }
 
     .order-items {
@@ -231,9 +111,6 @@
         letter-spacing: -0.015em;
         text-align: left;
         color: rgba(251, 251, 251, 1);
-
-
-
     }
 
     .subdued {
@@ -244,7 +121,6 @@
         line-height: 28px;
         letter-spacing: -0.015em;
         text-align: left;
-
     }
 
     .order-items-text-alt-content-item {
@@ -254,8 +130,6 @@
         line-height: 18px;
         text-align: left;
         color: rgba(251, 251, 251, 1);
-
-
     }
 
     .order-items-steps-alt {
@@ -271,22 +145,17 @@
         border-radius: 15px;
         background: rgba(251, 251, 251, 1);
         counter-increment: section;
-
     }
 
     .order-items-steps-alt-list-item-div {
         display: flex;
         align-items: center;
-
         gap: 24px;
-
-
     }
 
     .order-items-png {
         width: 52px;
         height: 52px;
-
     }
 
     .order-list-p {
@@ -296,8 +165,6 @@
         font-weight: 500;
         line-height: 14px;
         letter-spacing: -0.02em;
-
-
     }
 
     .order-list-p-span {
@@ -306,8 +173,6 @@
         font-weight: 700;
         line-height: 14px;
         letter-spacing: -0.02em;
-
-
     }
 
     .list-li-counter {
@@ -327,17 +192,10 @@
         line-height: 20px;
         letter-spacing: -0.02em;
         text-align: left;
-
-
-
-
     }
 
     .list-li-counter::before {
-
         content: counter(section) "";
-
-
     }
 
 
@@ -368,16 +226,414 @@
     }
 
 
+    /* Organic vegetables */
+
+    .organic-vegetables {
+        padding: 80px 20px 80px 20px;
+        gap: 40px;
+        background-color: rgba(122, 49, 69, 1);
+    }
+
+    .container-vegetables {
+        gap:20px;
+        padding-bottom: 40px;
+        width: 89%;
+    } 
+ 
+    .organic-section-title {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        text-transform: uppercase;
+        color: rgba(251, 251, 251, 1);
+        margin-bottom: 20px;  
+      }
+      
+      .organic-highlight {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        text-transform: uppercase;
+        color: rgba(251, 251, 251, 0.3);
+
+      }
+      
+      .organic-section-text {   
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: rgba(251, 251, 251, 1); 
+    }
+
+    .organic-vegetables-container{
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+
+    .vegetables-list{
+        padding: 32px 26px 32px 26px;
+        gap: 20px;
+        border-radius: 40px;
+         /* display: flex;
+        justify-content: center; */
+        background-color: rgba(251, 251, 251, 1);
+        margin-bottom: 20px;
+    }
+
+    .organic-list-container{
+      /* display: flex;
+      flex-direction: column; */
+        gap: 14px;
+        width: 84%;
+    }
+    
+    .organic-p{
+        gap: 12px;
+        width: 38%;
+        align-items: left;
+    }
+     
+      
+    .vegetables-title { 
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(122, 49, 69, 1);
+        padding-bottom:12px;
+    }
+      
+    .vegetables-text {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(20, 20, 20, 1); 
+    }
+      
+    .vegetables-section-img-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 84%;
+    }
+
+    
+    /*Review Customers mobile  */
+    .customer-container {
+        background-color: white;
+        padding: 80px 20px 80px 20px;
+    }
+
+    .review {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+        
+    .review-p-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        /* padding-right: 20px;
+        padding-left: 20px; */
+    }
+
+    .customer-title {
+        text-transform: uppercase;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        width: 89%; 
+    }
+
+    .span-title {
+        font-size: 48px;
+        color: rgba(87, 111, 53, 1);
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: -0.015em;
+        text-align: left; 
+        width: 89%; 
+    }
+      
+    .customer-text { 
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color:rgba(20, 20, 20, 1);
+    }
+
+
+    .customer-ul {
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+    }
+
+    .customer-ul>.customer-list{
+        width:calc((100% - 8px) / 1);  
+    }
+
+    .customer-list{
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+       
+    }
+       
+    .customer-list-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 16px 20px 16px;
+        border-radius: 24px;
+        border: 1px solid #7A31454D;
+        color: rgba(251, 251, 251, 1);
+        gap: 8px;
+    }
+      
+    .customer-list-container .img-list {   
+        display: flex;
+        align-items: center;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        gap: 8px;
+        margin-bottom: 16px;
+        
+    }
+
+    .customer-list-container-p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+      
+    .customer-list-title {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: rgba(4, 3, 6, 1);
+        display: flex; 
+    }
+      
+    .customer-list-description {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: center;
+        color: rgba(20, 20, 20, 0.4);
+    }
+
+    .customer-ul li:nth-child(2), 
+    .customer-ul li:nth-child(3){
+        display: none;
+    }
+
+
+    /* YOUR ORDER Mobile Tasarım */
+    .your-order-container{
+        display: flex;
+        flex-direction: column;
+        padding: 80px 20px 80px 20px;
+        gap: 40px;
+    }
+
+    .layout-container{ 
+        gap:29px;
+        width: 89%;
+    }
+
+    .fresh-harvest{
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(251, 251, 251, 1);
+    }
+
+    .fresh-harvest-span{
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(251, 251, 251, 0.3);
+
+    }
+
+    .fresh-harvest-text{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: rgba(251, 251, 251, 1);
+        padding-top: 29px; 
+    }
+
+    
+    #form-div-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%; 
+    }
+
+
+    #form-box{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 20px 40px 20px;
+        gap: 20px;
+        border-radius: 30px;
+        background-color: rgba(251, 251, 251, 1);
+        width: 100%;
+        
+    }
+
+    .order-text{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(20, 20, 20, 1);
+    }
+
+    .from-us{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(122, 49, 69, 1);
+    }
+
+    .the-form{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(87, 111, 53, 1);
+    }
+
+        /*form*/
+    .form{
+        width: 100%;
+    }
+
+    .form-input{
+        padding: 14px 16px;
+        gap: 15px;
+        border-radius: 30px;
+        border: 1px solid rgba(20, 20, 20, 0.2);
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .text-area{
+        padding: 14px 219px 59px 16px;
+        gap: 10px;
+        border-radius: 15px;
+        border: 1px solid rgba(20, 20, 20, 0.2);
+        width: 100%;
+        margin-bottom:20px ;
+    }
+
+    .button{
+        padding: 16px 129px 16px 129px;
+        gap: 10px;
+        border-radius: 30px;
+        border: none;
+        background: rgba(87, 111, 53, 1);
+        width: 100%;
+        align-items: left;
+        color: white;
+    }
+
+    ::placeholder{
+        color: rgba(20, 20, 20, 1);
+        
+    }
+
+    .link-box{
+        padding: 40px 20px 40px 20px;
+        gap: 20px;
+        border-radius: 30px;
+        background-color: rgba(87, 111, 53, 1);
+    }
+
+    .image{
+        border-radius: 15px;
+        object-fit:cover;
+        width: 100%;
+     
+    }
+
+    .social-links{
+        padding-top: 14px;
+    }
+
+    .follow-us{ 
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(251, 251, 251, 0.5);
+        padding-bottom: 14px;
+    }
+
+    .links-ul{
+        gap: 8px;
+        display: flex;
+       flex-wrap: wrap;
+        width: 88%;
+    }
+
+    .links-ul a{
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(251, 251, 251, 1);
+        text-decoration: none;
+        
+    }
+
+    .link:hover{
+        color:rgba(122, 49, 69, 1);
+    }
 
 
 
     /* Footer Mobile */
 
     .footer{
-        padding: 40px 20px 40px 20px;
-       
+        padding: 40px 20px 40px 20px; 
     }
-
 
     .footer-container{
         display: flex;
@@ -502,5 +758,6 @@
         text-align: left;
         color: rgba(251, 251, 251, 0.5);
     }
+
 
 }

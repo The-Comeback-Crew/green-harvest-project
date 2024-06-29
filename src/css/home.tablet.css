@@ -8,7 +8,7 @@
 
     /* organic vegetables part tablet css */
 
-    .organic-vegetables {
+    /* .organic-vegetables {
         min-width: 768px;
         max-width: 1279px;
         width: 150%;
@@ -51,44 +51,11 @@
 
     .review-p-container {
         width: 78.55%;
-    }
-
-    /* Review Customers*/
+    } */
 
 
 
-
-
-    .customer-title {
-        display: block;
-
-        text-align: left;
-
-        /* margin:0px 0px 25px 0px; */
-    }
-
-
-
-    .customer-list {
-        padding-right: 17px;
-
-    }
-
-    .customer-ul {
-        display: flex;
-
-        flex-direction: row;
-
-        /* padding-left: 32px;   */
-    }
-
-    .customer-list-container {
-        display: block;
-        justify-content: space-around;
-        flex-wrap: wrap;
-
-
-    }
+    /* */ 
 
     .order-pic-alt {
         object-fit: cover;
@@ -100,10 +67,7 @@
     }
 
     .order-items-text-alt-container {
-
         padding: 100px 159px 100px 159px;
-
-
     }
 
     .order-items {
@@ -117,8 +81,6 @@
     .highlight {
         font-size: 32px;
         line-height: 32px;
-
-
     }
 
     .subdued {
@@ -151,109 +113,7 @@
 
 
 
-    /* Review Customers Tablet */
-
-    .customer-container {
-        padding: 100px 32px 100px 32px;
-    }
-
-    .review {
-        gap: 50px;
-    }
-        
-
-    .review-p-container {
-        gap: 25px;
-    }
-
-    .customer-title {
-        font-size: 64px;
-        line-height: 64px;
-        width: 72%; 
-    }
-
-    .span-title {
-        font-size: 64px;
-        line-height: 64px; 
-        width: 72%; 
-    }
-      
-    .customer-text { 
-        font-size: 16px;
-        line-height: 20px;
-        text-align: left;
-        color:rgba(20, 20, 20, 1);
-        width: 72%; 
-    }
-
-
-    .customer-ul {
-        display: flex;
-        flex-direction: row;
-        /* margin-left: 0px;
-            padding-left: 0px;   */
-    }
-
-    .customer-ul>.customer-list{
-        width:calc((100% - 72px) / 2);  
-    }
-
-    .customer-list{
-        
-        gap: 18px;  
-    }
-       
-    .customer-list-container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        padding: 20px 16px 20px 16px;
-        border-radius: 24px;
-        border: 1px solid #7A31454D;
-        color: rgba(251, 251, 251, 1);
-    }
-      
-      .customer-list-container .img-list {   
-        display: flex;
-        align-items: center;
-        width: 56px;
-        height: 56px;
-        border-radius: 50%;
-        gap: 8px;
-        margin-bottom: 16px;
-        
-      }
-
-    .customer-list-container-p{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-    }
-      
-    .customer-list-title {
-        
-        font-size: 16px;
-        font-weight: 600;
-        line-height: 20px;
-        letter-spacing: -0.02em;
-        text-align: center;
-        color: rgba(4, 3, 6, 1);
-        display: flex; 
-    }
-      
-      .customer-list-description {
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 18px;
-        text-align: center;
-        color: rgba(20, 20, 20, 0.4); 
-      }
-
-    .customer-ul li:nth-child(2){
-          display: flex;
-    }
+   
       
 
     /* Discount up to */
@@ -279,11 +139,346 @@
     }
 
 
+ /* Review Customers Tablet*/
+
+.customer-title {
+    display: block;
+    text-align: left;
+    /* margin:0px 0px 25px 0px; */
+}
+
+.customer-list {
+    padding-right: 17px;
+}
+
+.customer-ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 32px;   
+}
+
+.customer-list-container {
+    display: block;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} 
+
+.customer-container {
+    padding: 100px 32px 100px 32px;
+}
+
+.review {
+    gap: 50px;
+}
     
+
+.review-p-container {
+    gap: 25px;
+}
+
+.customer-title {
+    font-size: 64px;
+    line-height: 64px;
+    width: 72%; 
+}
+
+.span-title {
+    font-size: 64px;
+    line-height: 64px; 
+    width: 72%; 
+}
   
+.customer-text { 
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color:rgba(20, 20, 20, 1);
+    width: 72%; 
+}
 
 
-    /* Footer Mobile */
+.customer-ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.customer-ul>.customer-list{
+    width:calc((100% - 72px) / 2);  
+}
+
+.customer-list{  
+    gap: 18px;  
+}
+   
+.customer-list-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 16px 20px 16px;
+    border-radius: 24px;
+    border: 1px solid #7A31454D;
+    color: rgba(251, 251, 251, 1);
+}
+  
+.customer-list-container .img-list {   
+    display: flex;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.customer-list-container-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+  
+.customer-list-title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(4, 3, 6, 1);
+    display: flex; 
+}
+  
+.customer-list-description {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    color: rgba(20, 20, 20, 0.4); 
+}
+
+.customer-ul li:nth-child(2){
+      display: flex;
+}
+
+
+    
+    /* Organic vegetables */
+
+    .organic-vegetables {   
+        padding: 100px 0 100px 32px;
+        gap: 50px;
+        background: rgba(122, 49, 69, 1);
+    }
+      
+    .organic-section-title { 
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 64px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(251, 251, 251, 1);
+        margin-bottom: 20px;  
+      }
+      
+    .organic-highlight {
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 64px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(251, 251, 251, 0.3);
+    }
+      
+    .organic-section-text {   
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: rgba(251, 251, 251, 1); 
+    }
+
+    .organic-vegetables-container{
+        display: flex;
+        flex-direction:row;
+        gap: 28px;  
+        width: 95%;
+    }
+
+    
+    .vegetables-ul { 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+    } 
+      
+    .vegetables-list{
+        padding: 32px 26px 32px 26px;
+        gap: 10px;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        width: calc((100% - 20px) / 2);  
+        background-color: rgba(251, 251, 251, 1);  
+    }
+
+    .organic-list-container{
+        gap: 14px;
+        width: 84%;
+    }
+    
+    .organic-p{
+        gap: 12px;
+        width: 38%;
+        align-items: left;
+    }
+     
+      
+    .vegetables-title { 
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(122, 49, 69, 1);
+        padding-bottom:12px;
+    }
+      
+    .vegetables-text {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: rgba(20, 20, 20, 1); 
+    }
+      
+      .vegetables-section-img-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 84%;
+    }
+
+
+    /* YOUR ORDER Mobile Tasarım */
+.your-order-container{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px 100px 0px;
+    gap: 50px;
+
+}
+
+.layout-container{ 
+    padding-left: 32px;
+    /* gap:29px; */
+    width: 83%;
+}
+
+.fresh-harvest{  
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: -0.015em;
+}
+
+.fresh-harvest-span{ 
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: -0.015em;
+}
+
+.fresh-harvest-text{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-top: 29px; 
+}
+
+
+#form-div-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 70px 0px 70px;
+    margin: auto;
+    gap: 25px;
+    gap: 20px;
+    width: 81%; 
+}
+
+.order-text{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.from-us{
+    font-size: 24px;  
+}
+
+.the-form{
+    font-size: 24px; 
+}
+
+    /*form*/
+.form{
+    width: 100%;
+}
+
+.form-input{
+    padding: 16px 345px 16px 16px;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid rgba(20, 20, 20, 0.2);
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.text-area{  
+    padding: 16px 344px 59px 16px;
+    border: 1px solid rgba(20, 20, 20, 0.2);   
+}
+
+.button{
+    padding: 16px 191px 16px 191px; 
+}
+
+.link-box{
+    padding: 50px;
+    gap: 50px;  
+}
+
+.image{
+    border-radius: 15px;
+    object-fit:cover;
+    width: 100%;
+ 
+}
+
+.social-links{
+    padding-top: 14px;
+}
+
+.follow-us{ 
+    font-size: 18px; 
+    line-height: 20px;
+    padding-bottom: 14px;
+}
+
+.links-ul{
+    gap: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 88%;
+}
+
+.links-ul a{
+    font-size: 23px;
+    line-height: 32px;  
+}
+
+    /* Footer tablett */
 
     .footer{
        padding: 32px 0px 0px 0px;
@@ -296,8 +491,6 @@
         justify-content: space-between;
         /* width: 91%; */
         /* padding: 32px 32px 100px 32px; */
-
-
     }
 
     .footer-container-logo{
@@ -335,7 +528,7 @@
     .footer-menu-li{ 
         gap: 25px;
         display:flex;
-        padding-top:32px;
+        /* padding-top:32px; */
         padding-right:32px;
     }
 
@@ -406,7 +599,6 @@
         text-align: left;
         color: rgba(251, 251, 251, 0.5);
     }
-
     
 
 }
