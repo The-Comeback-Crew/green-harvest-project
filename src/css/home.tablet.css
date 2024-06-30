@@ -3,7 +3,32 @@
         display: flex;
         justify-content: unset;
     }
-
+/* HEADER-HERO-TABLET */
+    .nav-bar{
+        padding: 32px 32px 0 32px;
+    }
+    .hero-alt-text{
+        padding-left: 32px;
+        padding-bottom: 32px;
+    }
+    .hero-alt-text-title{
+        font-size: 76px;
+        font-weight: 600;
+        line-height: 76px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        /* padding-bottom: 25px; */
+    }
+    .hero-alt-text-instruction{
+        font-size: 16px;
+        line-height: 20px;
+        padding-right: 101px;
+    }
+    .hero-alt-img {
+        flex-basis: 100%;
+        min-height: 550px;
+    }
+    /* HEADER-HERO-TABLET-END */
 
 
     /* organic vegetables part tablet css */
@@ -602,7 +627,10 @@
         color: rgba(251, 251, 251, 0.5);
     }
 
-
+.modal-menu {
+    width: 40%;
+    right: 0;
+}
 
 
 

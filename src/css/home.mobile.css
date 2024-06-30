@@ -5,6 +5,65 @@
         counter-reset: section;
     }
 
+    /* HEADER-HERO-MOBİLE */
+    .nav-bar-menu {
+            display: none;
+        }
+    
+        .nav-bar {
+            padding: 20px 20px 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+    
+        .nav-bar-logo-square {
+            display: flex;
+            gap: 4px;
+    
+        }
+    
+        .hero {
+            padding-top: 48px;
+            margin-top: -2px;
+        }
+    
+        .hero-container {
+            display: flex;
+            flex-direction: column;
+            
+        }
+    
+        .hero-alt-text {
+            padding: 0 20px 40px 20px;
+            gap: 128px;
+        }
+    
+        .hero-alt-text-title {
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 48px;
+            letter-spacing: -0.015em;
+            text-transform: uppercase;
+            color: rgba(251, 251, 251, 1);
+            padding-bottom: 20px;
+        }
+    
+        .hero-alt-text-instruction {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 18px;
+            color: rgba(251, 251, 251, 1);
+        }
+    
+        .hero-alt-img {
+            background-image: url(/src/img/1509d0c1b3d37f72969278e24c8386c5.png);
+            min-height: 370px;
+
+        }
+        /* HEADER-HERO-MOBİLE-END */
+
     /* organic vegetables part mobile css */
 
     /* .organic-vegetables {
@@ -766,4 +825,67 @@
 
 
 
+    /* MODAL-MENU */
+    .modal-menu{
+        background: rgba(122, 49, 69, 1);
+        position: fixed;
+            height: 100dvh;
+                width: 100vw;
+                height: 100dvh;
+                    width: 100vw;
+                    position: fixed;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    z-index: 999;
+    }
+    .modal-menu-button-icon{
+        position: fixed;
+        top: 20px;
+        right: 23px;
+    }
+    .modal-menu-list{
+        display: flex;
+            gap: 8px;
+            flex-direction: column;
+    }
+        .modal-menu-list-alt{
+            display: flex;
+                flex-direction: column;
+                gap: 10px;
+            
+        }
+        .modal-menu-list:hover
+        .modal-menu-list:focus{
+            color: rgba(251, 251, 251, 1);
+        }
+        .modal-menu-list-alt-text{
+            padding: 12px 16px 12px 16px;
+            display: flex;
+                flex-direction: column;
+               
+                border-radius: 12px;
+                border: 1px;
+                border: 1px solid rgba(251, 251, 251, 0.4);
+               
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 18px;
+            letter-spacing: -0.02em;
+            text-align: center;
+            color: rgba(251, 251, 251, 1);
+        }
+        .modal-menu-list-alt-text-link{
+            text-decoration: none;
+            color: rgba(251, 251, 251, 1);
+        }
+        .modal-menu-button{
+                display: flex;
+                padding: 16px 41px 16px 41px;
+                gap: 10px;
+                border-radius: 30px;
+                position: absolute;
+                bottom: 40px;
+        }
 }

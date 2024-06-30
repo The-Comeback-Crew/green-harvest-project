@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: Inter Tight;
 }
+.hero{
+  background-color: #576F35;
+}
 
 
 
@@ -128,3 +131,10 @@ ol {
   color: #7A3145
 }
 
+.hero-alt-img {
+  background-image: url(/src/img/1509d0c1b3d37f72969278e24c8386c5.png);
+  min-height: 370px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

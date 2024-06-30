@@ -1,4 +1,110 @@
 @media screen and (min-width:1280px) {
+/* HEADER-HERO-COMPUTER */
+.nav-bar {
+    padding-right: 100px;
+    padding-left: 100px;
+    z-index: 90;
+    position: relative;
+  }
+
+  .hero {
+    padding: 0;
+    top: -92px;
+    position: relative;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+  }
+
+  .nav-bar-alt {
+    display: none;
+  }
+
+  .nav-bar-menu {
+    display: flex;
+
+  }
+
+  .nav-bar-menu-list {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .nav-bar-menu-list-item {
+    display: flex;
+    padding: 12px;
+    margin: 8px;
+    gap: 10px;
+    border-radius: 12px;
+    border: 1px;
+    border: 1px solid rgba(251, 251, 251, 0.4)
+  }
+
+  .nav-bar-menu-list-item-text {
+    text-decoration: none;
+    color: rgba(251, 251, 251, 1);
+    text-transform: capitalize;
+  }
+
+  .nav-bar-menu-button {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 30px;
+    background-color: rgba(122, 49, 69, 1);
+    cursor: pointer;
+    width: 157px;
+    height: 52px;
+    border-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: rgba(251, 251, 251, 1);
+  }
+
+  .hero-alt-text {
+    padding-top: 238px;
+    padding-left: 100px;
+    padding-right: 28px;
+    /* max-width: 50%; */
+    display: flex;
+    gap: 128px;
+    flex-direction: column;
+  }
+
+  .hero-alt-text-instruction {
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .hero-alt-img {
+    display: flex;
+    align-items: center;
+    flex: 1 1 50%;
+    max-width: 720px;
+  }
+
+  .hero-alt-text {
+    flex: 1 1 50%;
+  }
+
+  /* HEADER-HERO-COMPUTER-END */
+
+
+
+
 
   /* Order picture */
     .order {
@@ -366,6 +472,10 @@ width: 50%;
 
 .footer-privacy {
     padding: 0 100px 50px 100px;
+}
+
+.modal-menu{
+  display: none;
 }
 
 }
