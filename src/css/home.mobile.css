@@ -631,9 +631,14 @@
 
     /* Footer Mobile */
 
+    /* Footer Mobile */
+
     .footer{
-        padding: 40px 20px 40px 20px; 
+        background: rgba(122, 49, 69, 1);
+        padding: 40px 20px 40px 20px;
+       
     }
+
 
     .footer-container{
         display: flex;
@@ -758,6 +763,7 @@
         text-align: left;
         color: rgba(251, 251, 251, 0.5);
     }
+
 
 
 }

@@ -478,7 +478,7 @@
     line-height: 32px;  
 }
 
-    /* Footer tablett */
+    /* Footer Computer */
 
     .footer{
        padding: 32px 0px 0px 0px;
@@ -491,6 +491,8 @@
         justify-content: space-between;
         /* width: 91%; */
         /* padding: 32px 32px 100px 32px; */
+
+
     }
 
     .footer-container-logo{
@@ -528,7 +530,7 @@
     .footer-menu-li{ 
         gap: 25px;
         display:flex;
-        /* padding-top:32px; */
+        padding-top:32px;
         padding-right:32px;
     }
 
@@ -599,6 +601,14 @@
         text-align: left;
         color: rgba(251, 251, 251, 0.5);
     }
-    
+
+
+
+
+
+
+
+
+
 
 }
