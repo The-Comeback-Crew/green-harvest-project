@@ -10,60 +10,98 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet" crossorigin href="./assets/index-D07_-Fyf.css">
+    <script>
+      function closeNav() {
+          var x = document.getElementById("hamburger-menu");
+          if (x.style.display === "flex") {
+            x.style.display = "none";
+          }
+          else {
+            x.style.display = "flex";
+          }
+        }
+        function closeModal() {
+          var y = document.getElementById("model-dialog-formbox");
+          if (y.style.display === "flex") {
+            y.style.display = "none";
+          }
+          else {
+            y.style.display = "flex";
+          }
+        }
+    </script>
+  <link rel="stylesheet" crossorigin href="./assets/index-B16x1ynA.css">
 </head>
 
 <body>
   <header>
-    <div id="header-container">
-      <div id="header-left">
-        <div id="header-left-content">
-          <div>
-            <p id="logo">
-              <svg width="194px" height="67px">
-                <use href="./assets/symbol-defs-BuSMbJvm.svg#icon-logo"></use>
-              </svg>
-            </p>
-          </div>
-
-          <p id="header-left-paragraf">
-            ORGANIC <br />VEGETABLES <br /><span>TO YOUR DIET <br />TODAY!
-            </span>
-          </p>
-
-          <p id="header-left-text">
-            Our expertly curated vegetable baskets are made with the freshest,
-            highest quality vegetables available. Fresh Harvest Box has got
-            you covered. Fresh, high-quality vegetables in expertly curated
-            vegetable baskets delivered to you.
-          </p>
-        </div>
+    <div class="modal-menu" id="model-dialog-formbox">
+      <!-- button -->
+        <svg width="32" height="32" class="modal-menu-button-icon" type="button" onclick="closeModal()" >
+          <use class="modal-menu-button-icon-alt" href="./assets/modal-menu-exit-button-BENLice6.svg#icon-modal-exit-button"> </use>
+        </svg>
+      <!-- div for menu -->
+      <div class="modal-menu-list">
+        <ul class="modal-menu-list-alt">
+          <li class="modal-menu-list-alt-text"><a class="modal-menu-list-alt-text-link" href="/">How It Works</a></li>
+          <li class="modal-menu-list-alt-text"><a class="modal-menu-list-alt-text-link" href="/">Vegetables</a></li>
+          <li class="modal-menu-list-alt-text"><a class="modal-menu-list-alt-text-link" href="/">Reviews</a></li>
+        </ul>
       </div>
-      <div id="navbar">
-          <!--<div>
-          <div class="icon-footer">
-            <svg width="16" height="16"><use href="./svg/symbol-defs.svg#icon-Vector-2"></use></svg>
-            <svg width="168" height="15"><use href="./svg/symbol-defs.svg#icon-GreenHarvest"></use></svg>
-            
-          </div>-->
-        <div>
-          <div class="icon-footer">
-            <svg width="16" height="16"><use href="./assets/symbol-defs-BuSMbJvm.svg#icon-Vector-2"></use></svg>
-            <svg width="168" height="15"><use href="./assets/symbol-defs-BuSMbJvm.svg#icon-GreenHarvest"></use></svg>
-            
-          </div>
-        </div>
-        <p class="navbar-paragraf">How It Works</p>
-
-        <p class="navbar-paragraf">Vegetables</p>
-
-        <p class="navbar-paragraf">Reviews</p>
-
-        <button id="button-text">SHOP NOW</button>
-      </div>
+      <!-- shop nox button -->
+      <button class="modal-menu-button">
+        SHOP NOW
+      </button>
     </div>
-  </header>
-  <main>
+        <nav class="nav-bar">
+            <a class="nav-bar-logo" href="./">
+                <!-- NAV BAR LOGO -->
+                <svg class="nav-bar-logo-square" width="168" height="24">
+                    <use class="nav-bar-logo-square-alt" href="./assets/header-symbol-defs-ccGj8QZN.svg#icon-logo"> </use>
+                </svg>
+            </a>
+
+            <!-- NAV BAR 3 ITEMS DESKTOP -->
+            <div class="nav-bar-menu">
+                <ul class="nav-bar-menu-list">
+                    <li class="nav-bar-menu-list-item">
+                        <a class="nav-bar-menu-list-item-text" href="">how it works</a>
+                    </li>
+                    <li class="nav-bar-menu-list-item">
+                        <a class="nav-bar-menu-list-item-text" href="">vegetabels</a>
+                    </li>
+                    <li class="nav-bar-menu-list-item">
+                        <a class="nav-bar-menu-list-item-text" href="">reviews</a>
+                    </li>
+                </ul>
+                <!-- SHOP NOW BUTTON -->
+                <button class="nav-bar-menu-button">Shop now</button>
+            </div>
+            <!-- MENU BUTTON  -->
+            <div class="hamburger-menu">
+              <a href="javascript:void(0)"   type="button" onclick="closeModal()">
+                <i class="fa fa-bars"></i>
+                <div class="hamburger-menu-icon">
+                  <svg class="nav-bar-alt" width="32" height="32">
+                    <use href="./assets/menu-logo-DExifjvG.svg#icon-menu-responsive"></use>
+                  </svg>
+              </a>
+            </div>
+            
+
+        </nav>
+        <!-- RESPONSIVE LIST ITEMS -->
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-alt-text">
+                    <h1 class="hero-alt-text-title">organic vegetables to your diet today!</h1>
+                    <p class="hero-alt-text-instruction">Our expertly curated vegetable baskets are made with the freshest, highest quality vegetables available. Fresh Harvest
+                    Box has got you covered. Fresh, high-quality vegetables in expertly curated vegetable baskets delivered to you.</p>
+                </div>
+                <div class="hero-alt-img"></div>
+            </div>
     <!--HERO-->
     <!--HOW IT WORKS-->
     <div class="container order">
@@ -363,53 +401,54 @@
       </div>
      
     </section>
+    <footer>
+      <!-- FOOTERRR -->
+        <div class="footer">
+          <div class="footer-container">
+            <div class="footer-container-logo">
+              <div class="icon-footer">
+                <svg width="16" height="16"><use href="./assets/symbol-defs-BuSMbJvm.svg#icon-Vector-2"></use></svg>
+                <svg width="168" height="15"><use href="./assets/symbol-defs-BuSMbJvm.svg#icon-GreenHarvest"></use></svg>
+                <!-- <a class="footer-logo" href="">GREEN HARVEST</a> -->
+              </div>
+              
+              <P class="footer-text">Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the perfect choice.</P>
+            </div>
 
-    <!-- FOOTERRR -->
-    <div class="footer">
-      <div class="footer-container">
-        <div class="footer-container-logo">
-          <div class="icon-footer">
-            <svg width="16" height="16"><use href="./assets/symbol-defs-BuSMbJvm.svg#icon-Vector-2"></use></svg>
-            <svg width="168" height="15"><use href="./assets/symbol-defs-BuSMbJvm.svg#icon-GreenHarvest"></use></svg>
-            <!-- <a class="footer-logo" href="">GREEN HARVEST</a> -->
+
+            <div class="footer-menu">
+              <div class="footer-menu-li">
+                <ul class="footer-menu-list">
+                  <li class="footer-menu-li-p">how it works</li>
+                  <li class="footer-menu-li-p">vegetables</li>
+                  <li class="footer-menu-li-p">reviews</li>
+                </ul>
+              </div>
+
+              <div class="footer-contact">
+                <a href="tel:+9053213454545" class="contact-no">+9053213454545</a>
+                <p class="contact-p">1678 S. Pioneer Road Salt Lake City UT 84104</p>
+
+              </div>
+            </div>
           </div>
-          
-          <P class="footer-text">Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the perfect choice.</P>
-        </div>
 
-
-        <div class="footer-menu">
-          <div class="footer-menu-li">
-            <ul class="footer-menu-list">
-              <li class="footer-menu-li-p">how it works</li>
-              <li class="footer-menu-li-p">vegetables</li>
-              <li class="footer-menu-li-p">reviews</li>
-            </ul>
-          </div>
-
-          <div class="footer-contact">
-            <a href="tel:+9053213454545" class="contact-no">+9053213454545</a>
-            <p class="contact-p">1678 S. Pioneer Road Salt Lake City UT 84104</p>
+          <div class="footer-privacy">
+            <div class="footer-privacy-left">
+              <p class="privacy-left-p">Privacy Policy / Cookie settings</p>
+              <!-- <p class="privacy-p">/</p>
+              <p class="privacy-p">Cookie settings</p> -->
+            </div>
+            
+            <div class="footer-privacy-right">
+              <p class="privacy-right-p">©Green Harvest 2023</p>
+            </div>
 
           </div>
-        </div>
-      </div>
 
-      <div class="footer-privacy">
-        <div class="footer-privacy-left">
-          <p class="privacy-left-p">Privacy Policy / Cookie settings</p>
-          <!-- <p class="privacy-p">/</p>
-          <p class="privacy-p">Cookie settings</p> -->
         </div>
-         
-        <div class="footer-privacy-right">
-          <p class="privacy-right-p">©Green Harvest 2023</p>
-        </div>
-
-      </div>
-
-    </div>
-  </main>
+      </main>
+    </footer>
+    
 </body>
-
 </html>
