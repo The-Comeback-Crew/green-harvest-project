@@ -445,10 +445,6 @@
         align-items: center;
     }
 
-    .customer-ul>.customer-list{
-        width:calc((100% - 8px) / 1);  
-    }
-
     .customer-list{
         display: flex;
         justify-content: center;

@@ -230,9 +230,6 @@
     flex-direction: row;
 }
 
-.customer-ul>.customer-list{
-    width:calc((100% - 72px) / 2);  
-}
 
 .customer-list{  
     gap: 18px;  
