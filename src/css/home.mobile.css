@@ -58,8 +58,8 @@
         }
     
         .hero-alt-img {
-            background-image: url(/src/img/1509d0c1b3d37f72969278e24c8386c5.png);
-            min-height: 370px;
+            object-fit:cover;
+            width: 100%;
 
         }
         /* HEADER-HERO-MOBİLE-END */
@@ -515,6 +515,8 @@
         flex-direction: column;
         padding: 80px 20px 80px 20px;
         gap: 40px;
+        background-color: #7A3145;
+     
     }
 
     .layout-container{ 

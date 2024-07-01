@@ -1,10 +1,13 @@
 @media screen and (min-width:1280px) {
 /* HEADER-HERO-COMPUTER */
 .nav-bar {
+   display: flex;
+   flex-direction: row;
     padding-right: 100px;
     padding-left: 100px;
     z-index: 90;
     position: relative;
+    width: 100%;
   }
 
   .hero {
@@ -17,15 +20,22 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-
   }
 
   .nav-bar-alt {
     display: none;
   }
 
+.nav-logo{
+  display: flex;
+  justify-content: left;
+  width: 50%;
+}
+
   .nav-bar-menu {
     display: flex;
+    justify-content:right;
+    width: 50%;
 
   }
 
@@ -80,6 +90,7 @@
     display: flex;
     gap: 128px;
     flex-direction: column;
+    width: 50%;
   }
 
   .hero-alt-text-instruction {
@@ -89,11 +100,14 @@
     line-height: 20px;
   }
 
+  .imageClass{
+    width: 50%;
+  }
   .hero-alt-img {
-    display: flex;
-    align-items: center;
-    flex: 1 1 50%;
-    max-width: 720px;
+    object-fit:cover;
+    width: 100%;
+   
+    /* max-width: 720px; */
   }
 
   .hero-alt-text {
@@ -175,7 +189,7 @@
   flex-direction:row;
   justify-content: center;
   gap: 21px;
-  width: 84%;
+  width: 100%;
 }
 
 .vegetables-list {
